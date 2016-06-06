@@ -1,0 +1,644 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		45DE992E7FF3B654AB708AA71B09028A /* Pods-CewebityTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F62D8049F60F82D2646083B035FCE26 /* Pods-CewebityTests-dummy.m */; };
+		532D7366B78DF635B78E767F7F07265E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		7C656A10FDFFB25764645F9B698863F7 /* Pods-Cewebity-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 29891AC49B018FA980CF30AC63A94E24 /* Pods-Cewebity-dummy.m */; };
+		7FC8999EF3A8F71AD7927A97D4B79A6B /* Pods-Cewebity-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AD178A9966D99BE307ED86848F668236 /* Pods-Cewebity-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8F75FB7F0A0818510BC3D3D6C453A0D5 /* Pods-CewebityUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F975150591278FE900828470B49E8C2D /* Pods-CewebityUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B8A2F5136D0277A152A90C531E0B1B7E /* Pods-CewebityTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C8C72BD475CB917853E2FBC0464784DA /* Pods-CewebityTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CEBE09C819B325E01DE513FA907A0FE4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		CF5CCDD7ADB9F3EB58F9124F4E76665F /* Pods-CewebityUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7854F22C1C153C480B4B70CE911309DE /* Pods-CewebityUITests-dummy.m */; };
+		D6D8713ABBA5113EA4F49811C6BDDBB4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		050AA080C1ECDEAED8F453EC2A2096B0 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0519C7C92B52F5721CCB5BFF111BC19D /* Pods_CewebityTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CewebityTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		29891AC49B018FA980CF30AC63A94E24 /* Pods-Cewebity-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Cewebity-dummy.m"; sourceTree = "<group>"; };
+		2CB0C4983952B4F7CC431E59980F8D35 /* Pods-Cewebity.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Cewebity.modulemap"; sourceTree = "<group>"; };
+		326228A05B9A4CC508D97955287F73AA /* Pods-CewebityUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-CewebityUITests.modulemap"; sourceTree = "<group>"; };
+		3538BC07B9407D1F1EB6ADD59AD1BEFB /* Pods-CewebityTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CewebityTests-frameworks.sh"; sourceTree = "<group>"; };
+		42EF60064D4418919407CD80DE61FB82 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4654E6FA0768D0D89EDF8746ECA6581A /* Pods-CewebityUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CewebityUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		4CF6472ADF507BE71CF69496E2E138F5 /* Pods-CewebityTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CewebityTests.debug.xcconfig"; sourceTree = "<group>"; };
+		4E4C58998916CEEDDE6E743DFA904CAB /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4F62D8049F60F82D2646083B035FCE26 /* Pods-CewebityTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CewebityTests-dummy.m"; sourceTree = "<group>"; };
+		57EE7E8C00A0D8E1B28A4E5BC7C5734B /* Pods-CewebityTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CewebityTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		61320084E3D0ABC327F17B5D26EC836E /* Pods-CewebityUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CewebityUITests-frameworks.sh"; sourceTree = "<group>"; };
+		6F385408735869807400BEC2565C19CC /* Pods-CewebityTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CewebityTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		6FB179F850287218D62CDA6CEB8F7338 /* Pods-CewebityUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CewebityUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		733EC5F2E029CAFAC088CCACCF82F5CF /* Pods-CewebityTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-CewebityTests.modulemap"; sourceTree = "<group>"; };
+		7854F22C1C153C480B4B70CE911309DE /* Pods-CewebityUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CewebityUITests-dummy.m"; sourceTree = "<group>"; };
+		7E8B31EB92313DF83B980F56C2501B46 /* Pods_Cewebity.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Cewebity.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F01F1CD6536E379461158692E035A1D /* Pods-CewebityTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CewebityTests-resources.sh"; sourceTree = "<group>"; };
+		890CD00E051D9831DE9C81DE83FF349E /* Pods-CewebityUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CewebityUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9B1BD535FE784C0A187EBB8C828C4CA6 /* Pods-Cewebity-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Cewebity-resources.sh"; sourceTree = "<group>"; };
+		A0E0E5570DCDAC5C77264B6A57555CBE /* Pods-Cewebity.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Cewebity.release.xcconfig"; sourceTree = "<group>"; };
+		A7D2FFB2167553717B5DE5647FB5C43A /* Pods_CewebityUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CewebityUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD178A9966D99BE307ED86848F668236 /* Pods-Cewebity-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Cewebity-umbrella.h"; sourceTree = "<group>"; };
+		B6AF2D1DA528751EE7D03760482304A9 /* Pods-CewebityTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CewebityTests.release.xcconfig"; sourceTree = "<group>"; };
+		C8C72BD475CB917853E2FBC0464784DA /* Pods-CewebityTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CewebityTests-umbrella.h"; sourceTree = "<group>"; };
+		CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D4D8817F9593F337C114FDEF0C3CA109 /* Pods-Cewebity-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Cewebity-acknowledgements.plist"; sourceTree = "<group>"; };
+		ECEAD301052B249D723568F0C61F7E3C /* Pods-CewebityUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CewebityUITests.release.xcconfig"; sourceTree = "<group>"; };
+		EFDA51B89CA63B792F6FDF4EFFEBD218 /* Pods-Cewebity-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Cewebity-frameworks.sh"; sourceTree = "<group>"; };
+		F04757CF44B14B771CBB143C07BE7A02 /* Pods-Cewebity.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Cewebity.debug.xcconfig"; sourceTree = "<group>"; };
+		F975150591278FE900828470B49E8C2D /* Pods-CewebityUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CewebityUITests-umbrella.h"; sourceTree = "<group>"; };
+		F9C3281B68E4EEE52CF7A4A1B7866591 /* Pods-Cewebity-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Cewebity-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F9C35AED6DCA99792A007D16F9BDEBC0 /* Pods-CewebityUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CewebityUITests-resources.sh"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		07BFFE4BF8A005AB78611B3A40B11E85 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				532D7366B78DF635B78E767F7F07265E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84CDFF8F260E265D9633E28CDF8BA2B6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEBE09C819B325E01DE513FA907A0FE4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF70363F3CA587AEC11BE623F94FB5E4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6D8713ABBA5113EA4F49811C6BDDBB4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		31057BD965207B198BB4635454A4AF9F /* Pods-Cewebity */ = {
+			isa = PBXGroup;
+			children = (
+				42EF60064D4418919407CD80DE61FB82 /* Info.plist */,
+				2CB0C4983952B4F7CC431E59980F8D35 /* Pods-Cewebity.modulemap */,
+				F9C3281B68E4EEE52CF7A4A1B7866591 /* Pods-Cewebity-acknowledgements.markdown */,
+				D4D8817F9593F337C114FDEF0C3CA109 /* Pods-Cewebity-acknowledgements.plist */,
+				29891AC49B018FA980CF30AC63A94E24 /* Pods-Cewebity-dummy.m */,
+				EFDA51B89CA63B792F6FDF4EFFEBD218 /* Pods-Cewebity-frameworks.sh */,
+				9B1BD535FE784C0A187EBB8C828C4CA6 /* Pods-Cewebity-resources.sh */,
+				AD178A9966D99BE307ED86848F668236 /* Pods-Cewebity-umbrella.h */,
+				F04757CF44B14B771CBB143C07BE7A02 /* Pods-Cewebity.debug.xcconfig */,
+				A0E0E5570DCDAC5C77264B6A57555CBE /* Pods-Cewebity.release.xcconfig */,
+			);
+			name = "Pods-Cewebity";
+			path = "Target Support Files/Pods-Cewebity";
+			sourceTree = "<group>";
+		};
+		3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		61EB9A481722049F9D14413DE9BFFE4A /* Pods-CewebityTests */ = {
+			isa = PBXGroup;
+			children = (
+				050AA080C1ECDEAED8F453EC2A2096B0 /* Info.plist */,
+				733EC5F2E029CAFAC088CCACCF82F5CF /* Pods-CewebityTests.modulemap */,
+				6F385408735869807400BEC2565C19CC /* Pods-CewebityTests-acknowledgements.markdown */,
+				57EE7E8C00A0D8E1B28A4E5BC7C5734B /* Pods-CewebityTests-acknowledgements.plist */,
+				4F62D8049F60F82D2646083B035FCE26 /* Pods-CewebityTests-dummy.m */,
+				3538BC07B9407D1F1EB6ADD59AD1BEFB /* Pods-CewebityTests-frameworks.sh */,
+				7F01F1CD6536E379461158692E035A1D /* Pods-CewebityTests-resources.sh */,
+				C8C72BD475CB917853E2FBC0464784DA /* Pods-CewebityTests-umbrella.h */,
+				4CF6472ADF507BE71CF69496E2E138F5 /* Pods-CewebityTests.debug.xcconfig */,
+				B6AF2D1DA528751EE7D03760482304A9 /* Pods-CewebityTests.release.xcconfig */,
+			);
+			name = "Pods-CewebityTests";
+			path = "Target Support Files/Pods-CewebityTests";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				97250700F261A13CEA8DF1BADACF949B /* Products */,
+				F8B1C1DFC00A13F603611720AB6CE99F /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		97250700F261A13CEA8DF1BADACF949B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7E8B31EB92313DF83B980F56C2501B46 /* Pods_Cewebity.framework */,
+				0519C7C92B52F5721CCB5BFF111BC19D /* Pods_CewebityTests.framework */,
+				A7D2FFB2167553717B5DE5647FB5C43A /* Pods_CewebityUITests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ED960295EE6702BACDBA0328502EC94F /* Pods-CewebityUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4E4C58998916CEEDDE6E743DFA904CAB /* Info.plist */,
+				326228A05B9A4CC508D97955287F73AA /* Pods-CewebityUITests.modulemap */,
+				4654E6FA0768D0D89EDF8746ECA6581A /* Pods-CewebityUITests-acknowledgements.markdown */,
+				890CD00E051D9831DE9C81DE83FF349E /* Pods-CewebityUITests-acknowledgements.plist */,
+				7854F22C1C153C480B4B70CE911309DE /* Pods-CewebityUITests-dummy.m */,
+				61320084E3D0ABC327F17B5D26EC836E /* Pods-CewebityUITests-frameworks.sh */,
+				F9C35AED6DCA99792A007D16F9BDEBC0 /* Pods-CewebityUITests-resources.sh */,
+				F975150591278FE900828470B49E8C2D /* Pods-CewebityUITests-umbrella.h */,
+				6FB179F850287218D62CDA6CEB8F7338 /* Pods-CewebityUITests.debug.xcconfig */,
+				ECEAD301052B249D723568F0C61F7E3C /* Pods-CewebityUITests.release.xcconfig */,
+			);
+			name = "Pods-CewebityUITests";
+			path = "Target Support Files/Pods-CewebityUITests";
+			sourceTree = "<group>";
+		};
+		F8B1C1DFC00A13F603611720AB6CE99F /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				31057BD965207B198BB4635454A4AF9F /* Pods-Cewebity */,
+				61EB9A481722049F9D14413DE9BFFE4A /* Pods-CewebityTests */,
+				ED960295EE6702BACDBA0328502EC94F /* Pods-CewebityUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		47A191B003CA3CCE33F820BD5846725D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F75FB7F0A0818510BC3D3D6C453A0D5 /* Pods-CewebityUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1E4F885DD04CE443886604D488C4866 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8A2F5136D0277A152A90C531E0B1B7E /* Pods-CewebityTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C005AC0EF91FB917F8DDD11F0F7E73ED /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7FC8999EF3A8F71AD7927A97D4B79A6B /* Pods-Cewebity-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		983EEEC39B4EFE80EFC6CDCD1E4ED120 /* Pods-Cewebity */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 573B4F086A947A2D26C8E0FCB6A55BEB /* Build configuration list for PBXNativeTarget "Pods-Cewebity" */;
+			buildPhases = (
+				49571BEB9889D9722932DDB94826F79F /* Sources */,
+				BF70363F3CA587AEC11BE623F94FB5E4 /* Frameworks */,
+				C005AC0EF91FB917F8DDD11F0F7E73ED /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-Cewebity";
+			productName = "Pods-Cewebity";
+			productReference = 7E8B31EB92313DF83B980F56C2501B46 /* Pods_Cewebity.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		CE048B9703DE274035D92D379FB52015 /* Pods-CewebityTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5F142FBE7F7F63A188D87494EC3E84A5 /* Build configuration list for PBXNativeTarget "Pods-CewebityTests" */;
+			buildPhases = (
+				642B082ABDF131620D9CCD67A487B447 /* Sources */,
+				84CDFF8F260E265D9633E28CDF8BA2B6 /* Frameworks */,
+				A1E4F885DD04CE443886604D488C4866 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-CewebityTests";
+			productName = "Pods-CewebityTests";
+			productReference = 0519C7C92B52F5721CCB5BFF111BC19D /* Pods_CewebityTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		FB33BE9FEE9DB3599D52262E8BBA8903 /* Pods-CewebityUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 221A2081CDFCFB368501099A3EC6D630 /* Build configuration list for PBXNativeTarget "Pods-CewebityUITests" */;
+			buildPhases = (
+				436BE5DC6ECCA13AC73526B2090670FF /* Sources */,
+				07BFFE4BF8A005AB78611B3A40B11E85 /* Frameworks */,
+				47A191B003CA3CCE33F820BD5846725D /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-CewebityUITests";
+			productName = "Pods-CewebityUITests";
+			productReference = A7D2FFB2167553717B5DE5647FB5C43A /* Pods_CewebityUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 97250700F261A13CEA8DF1BADACF949B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				983EEEC39B4EFE80EFC6CDCD1E4ED120 /* Pods-Cewebity */,
+				CE048B9703DE274035D92D379FB52015 /* Pods-CewebityTests */,
+				FB33BE9FEE9DB3599D52262E8BBA8903 /* Pods-CewebityUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		436BE5DC6ECCA13AC73526B2090670FF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF5CCDD7ADB9F3EB58F9124F4E76665F /* Pods-CewebityUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49571BEB9889D9722932DDB94826F79F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7C656A10FDFFB25764645F9B698863F7 /* Pods-Cewebity-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		642B082ABDF131620D9CCD67A487B447 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45DE992E7FF3B654AB708AA71B09028A /* Pods-CewebityTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		0B697C57D899513F802B20CA21C82A22 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4CF6472ADF507BE71CF69496E2E138F5 /* Pods-CewebityTests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-CewebityTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CewebityTests/Pods-CewebityTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_CewebityTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		289149B5E46BAA3E8AAA08506264C069 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ECEAD301052B249D723568F0C61F7E3C /* Pods-CewebityUITests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-CewebityUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CewebityUITests/Pods-CewebityUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_CewebityUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		35357A69F564BAAC49768F417F2260C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F04757CF44B14B771CBB143C07BE7A02 /* Pods-Cewebity.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Cewebity/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Cewebity/Pods-Cewebity.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Cewebity;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		3FA451D268613890FA8A5A03801E11D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5E62115DE8C09934BF8D2FE5D15FED1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		9B8A8987E0B5822576A6BF1489F2446E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B6AF2D1DA528751EE7D03760482304A9 /* Pods-CewebityTests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-CewebityTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CewebityTests/Pods-CewebityTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_CewebityTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B679E1C4DDE7FE77CE62BEE9BEBE34F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A0E0E5570DCDAC5C77264B6A57555CBE /* Pods-Cewebity.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Cewebity/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Cewebity/Pods-Cewebity.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Cewebity;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F493A37DF0CDAEBBCCD22CB47FA041C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6FB179F850287218D62CDA6CEB8F7338 /* Pods-CewebityUITests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-CewebityUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CewebityUITests/Pods-CewebityUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_CewebityUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		221A2081CDFCFB368501099A3EC6D630 /* Build configuration list for PBXNativeTarget "Pods-CewebityUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F493A37DF0CDAEBBCCD22CB47FA041C6 /* Debug */,
+				289149B5E46BAA3E8AAA08506264C069 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E62115DE8C09934BF8D2FE5D15FED1E /* Debug */,
+				3FA451D268613890FA8A5A03801E11D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		573B4F086A947A2D26C8E0FCB6A55BEB /* Build configuration list for PBXNativeTarget "Pods-Cewebity" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				35357A69F564BAAC49768F417F2260C1 /* Debug */,
+				B679E1C4DDE7FE77CE62BEE9BEBE34F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5F142FBE7F7F63A188D87494EC3E84A5 /* Build configuration list for PBXNativeTarget "Pods-CewebityTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0B697C57D899513F802B20CA21C82A22 /* Debug */,
+				9B8A8987E0B5822576A6BF1489F2446E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

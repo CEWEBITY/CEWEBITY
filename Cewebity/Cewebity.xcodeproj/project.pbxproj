@@ -1,0 +1,691 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		75E66A681D05AA340093CC27 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75E66A671D05AA340093CC27 /* AppDelegate.swift */; };
+		75E66A6A1D05AA340093CC27 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75E66A691D05AA340093CC27 /* FirstViewController.swift */; };
+		75E66A6C1D05AA340093CC27 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75E66A6B1D05AA340093CC27 /* SecondViewController.swift */; };
+		75E66A6F1D05AA340093CC27 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75E66A6D1D05AA340093CC27 /* Main.storyboard */; };
+		75E66A711D05AA340093CC27 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 75E66A701D05AA340093CC27 /* Assets.xcassets */; };
+		75E66A741D05AA340093CC27 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75E66A721D05AA340093CC27 /* LaunchScreen.storyboard */; };
+		75E66A7F1D05AA340093CC27 /* CewebityTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75E66A7E1D05AA340093CC27 /* CewebityTests.swift */; };
+		75E66A8A1D05AA340093CC27 /* CewebityUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75E66A891D05AA340093CC27 /* CewebityUITests.swift */; };
+		B8332BEE849E0288B6B3F01B /* Pods_CewebityUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5A5C6BA76D61A2406997512 /* Pods_CewebityUITests.framework */; };
+		C9B978E3E9A5C273E72205E9 /* Pods_CewebityTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6AB9F8145FBDECC42CFF7DF0 /* Pods_CewebityTests.framework */; };
+		F902FAEB13A55B634FFDD5ED /* Pods_Cewebity.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4789FBE0E6A3271313D53D32 /* Pods_Cewebity.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		75E66A7B1D05AA340093CC27 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 75E66A5C1D05AA330093CC27 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 75E66A631D05AA340093CC27;
+			remoteInfo = Cewebity;
+		};
+		75E66A861D05AA340093CC27 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 75E66A5C1D05AA330093CC27 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 75E66A631D05AA340093CC27;
+			remoteInfo = Cewebity;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00791BB4D6CDDBC419C32F15 /* Pods-Cewebity.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cewebity.release.xcconfig"; path = "Pods/Target Support Files/Pods-Cewebity/Pods-Cewebity.release.xcconfig"; sourceTree = "<group>"; };
+		4789FBE0E6A3271313D53D32 /* Pods_Cewebity.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Cewebity.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4FB64615BC5F33FD4A0AFC46 /* Pods-CewebityTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CewebityTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CewebityTests/Pods-CewebityTests.debug.xcconfig"; sourceTree = "<group>"; };
+		6A77F61A59B2D63DF6767C22 /* Pods-CewebityUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CewebityUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CewebityUITests/Pods-CewebityUITests.release.xcconfig"; sourceTree = "<group>"; };
+		6AB9F8145FBDECC42CFF7DF0 /* Pods_CewebityTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CewebityTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		75E66A641D05AA340093CC27 /* Cewebity.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cewebity.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		75E66A671D05AA340093CC27 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		75E66A691D05AA340093CC27 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		75E66A6B1D05AA340093CC27 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		75E66A6E1D05AA340093CC27 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		75E66A701D05AA340093CC27 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		75E66A731D05AA340093CC27 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		75E66A751D05AA340093CC27 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		75E66A7A1D05AA340093CC27 /* CewebityTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CewebityTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		75E66A7E1D05AA340093CC27 /* CewebityTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CewebityTests.swift; sourceTree = "<group>"; };
+		75E66A801D05AA340093CC27 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		75E66A851D05AA340093CC27 /* CewebityUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CewebityUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		75E66A891D05AA340093CC27 /* CewebityUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CewebityUITests.swift; sourceTree = "<group>"; };
+		75E66A8B1D05AA340093CC27 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		88EBB9144A835DF0D98A453F /* Pods-CewebityUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CewebityUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CewebityUITests/Pods-CewebityUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		89D44863422DD702876339B6 /* Pods-Cewebity.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cewebity.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Cewebity/Pods-Cewebity.debug.xcconfig"; sourceTree = "<group>"; };
+		B5A5C6BA76D61A2406997512 /* Pods_CewebityUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CewebityUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB7921AB53DB7936892E2F51 /* Pods-CewebityTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CewebityTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CewebityTests/Pods-CewebityTests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		75E66A611D05AA340093CC27 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F902FAEB13A55B634FFDD5ED /* Pods_Cewebity.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75E66A771D05AA340093CC27 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9B978E3E9A5C273E72205E9 /* Pods_CewebityTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75E66A821D05AA340093CC27 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8332BEE849E0288B6B3F01B /* Pods_CewebityUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		525A0C2801457A3A3E59FECA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				89D44863422DD702876339B6 /* Pods-Cewebity.debug.xcconfig */,
+				00791BB4D6CDDBC419C32F15 /* Pods-Cewebity.release.xcconfig */,
+				4FB64615BC5F33FD4A0AFC46 /* Pods-CewebityTests.debug.xcconfig */,
+				DB7921AB53DB7936892E2F51 /* Pods-CewebityTests.release.xcconfig */,
+				88EBB9144A835DF0D98A453F /* Pods-CewebityUITests.debug.xcconfig */,
+				6A77F61A59B2D63DF6767C22 /* Pods-CewebityUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		57F20C332CC20194657CA775 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4789FBE0E6A3271313D53D32 /* Pods_Cewebity.framework */,
+				6AB9F8145FBDECC42CFF7DF0 /* Pods_CewebityTests.framework */,
+				B5A5C6BA76D61A2406997512 /* Pods_CewebityUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		75E66A5B1D05AA330093CC27 = {
+			isa = PBXGroup;
+			children = (
+				75E66A661D05AA340093CC27 /* Cewebity */,
+				75E66A7D1D05AA340093CC27 /* CewebityTests */,
+				75E66A881D05AA340093CC27 /* CewebityUITests */,
+				75E66A651D05AA340093CC27 /* Products */,
+				525A0C2801457A3A3E59FECA /* Pods */,
+				57F20C332CC20194657CA775 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		75E66A651D05AA340093CC27 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				75E66A641D05AA340093CC27 /* Cewebity.app */,
+				75E66A7A1D05AA340093CC27 /* CewebityTests.xctest */,
+				75E66A851D05AA340093CC27 /* CewebityUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		75E66A661D05AA340093CC27 /* Cewebity */ = {
+			isa = PBXGroup;
+			children = (
+				75E66A671D05AA340093CC27 /* AppDelegate.swift */,
+				75E66A691D05AA340093CC27 /* FirstViewController.swift */,
+				75E66A6B1D05AA340093CC27 /* SecondViewController.swift */,
+				75E66A6D1D05AA340093CC27 /* Main.storyboard */,
+				75E66A701D05AA340093CC27 /* Assets.xcassets */,
+				75E66A721D05AA340093CC27 /* LaunchScreen.storyboard */,
+				75E66A751D05AA340093CC27 /* Info.plist */,
+			);
+			path = Cewebity;
+			sourceTree = "<group>";
+		};
+		75E66A7D1D05AA340093CC27 /* CewebityTests */ = {
+			isa = PBXGroup;
+			children = (
+				75E66A7E1D05AA340093CC27 /* CewebityTests.swift */,
+				75E66A801D05AA340093CC27 /* Info.plist */,
+			);
+			path = CewebityTests;
+			sourceTree = "<group>";
+		};
+		75E66A881D05AA340093CC27 /* CewebityUITests */ = {
+			isa = PBXGroup;
+			children = (
+				75E66A891D05AA340093CC27 /* CewebityUITests.swift */,
+				75E66A8B1D05AA340093CC27 /* Info.plist */,
+			);
+			path = CewebityUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		75E66A631D05AA340093CC27 /* Cewebity */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 75E66A8E1D05AA340093CC27 /* Build configuration list for PBXNativeTarget "Cewebity" */;
+			buildPhases = (
+				35F5554EC841B3EAB4CA5A4B /* [CP] Check Pods Manifest.lock */,
+				75E66A601D05AA340093CC27 /* Sources */,
+				75E66A611D05AA340093CC27 /* Frameworks */,
+				75E66A621D05AA340093CC27 /* Resources */,
+				9CA66D2CAFB3C0B7C54B5FE4 /* [CP] Embed Pods Frameworks */,
+				CACC380C4A456C5B7ADC20E9 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Cewebity;
+			productName = Cewebity;
+			productReference = 75E66A641D05AA340093CC27 /* Cewebity.app */;
+			productType = "com.apple.product-type.application";
+		};
+		75E66A791D05AA340093CC27 /* CewebityTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 75E66A911D05AA340093CC27 /* Build configuration list for PBXNativeTarget "CewebityTests" */;
+			buildPhases = (
+				71AD5C0427888624E82C397D /* [CP] Check Pods Manifest.lock */,
+				75E66A761D05AA340093CC27 /* Sources */,
+				75E66A771D05AA340093CC27 /* Frameworks */,
+				75E66A781D05AA340093CC27 /* Resources */,
+				BB225868056DD3EE0BD4AD93 /* [CP] Embed Pods Frameworks */,
+				19232A3C376EEA85284CB728 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				75E66A7C1D05AA340093CC27 /* PBXTargetDependency */,
+			);
+			name = CewebityTests;
+			productName = CewebityTests;
+			productReference = 75E66A7A1D05AA340093CC27 /* CewebityTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		75E66A841D05AA340093CC27 /* CewebityUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 75E66A941D05AA340093CC27 /* Build configuration list for PBXNativeTarget "CewebityUITests" */;
+			buildPhases = (
+				3BFD1565B8B6F092CA9877C4 /* [CP] Check Pods Manifest.lock */,
+				75E66A811D05AA340093CC27 /* Sources */,
+				75E66A821D05AA340093CC27 /* Frameworks */,
+				75E66A831D05AA340093CC27 /* Resources */,
+				804BDF4D041AF3DD26DE828F /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				75E66A871D05AA340093CC27 /* PBXTargetDependency */,
+			);
+			name = CewebityUITests;
+			productName = CewebityUITests;
+			productReference = 75E66A851D05AA340093CC27 /* CewebityUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		75E66A5C1D05AA330093CC27 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Cewebity;
+				TargetAttributes = {
+					75E66A631D05AA340093CC27 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					75E66A791D05AA340093CC27 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 75E66A631D05AA340093CC27;
+					};
+					75E66A841D05AA340093CC27 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 75E66A631D05AA340093CC27;
+					};
+				};
+			};
+			buildConfigurationList = 75E66A5F1D05AA330093CC27 /* Build configuration list for PBXProject "Cewebity" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 75E66A5B1D05AA330093CC27;
+			productRefGroup = 75E66A651D05AA340093CC27 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				75E66A631D05AA340093CC27 /* Cewebity */,
+				75E66A791D05AA340093CC27 /* CewebityTests */,
+				75E66A841D05AA340093CC27 /* CewebityUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		75E66A621D05AA340093CC27 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75E66A741D05AA340093CC27 /* LaunchScreen.storyboard in Resources */,
+				75E66A711D05AA340093CC27 /* Assets.xcassets in Resources */,
+				75E66A6F1D05AA340093CC27 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75E66A781D05AA340093CC27 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75E66A831D05AA340093CC27 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		19232A3C376EEA85284CB728 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CewebityTests/Pods-CewebityTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		35F5554EC841B3EAB4CA5A4B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		3BFD1565B8B6F092CA9877C4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		71AD5C0427888624E82C397D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		804BDF4D041AF3DD26DE828F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CewebityUITests/Pods-CewebityUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9CA66D2CAFB3C0B7C54B5FE4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Cewebity/Pods-Cewebity-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BB225868056DD3EE0BD4AD93 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CewebityTests/Pods-CewebityTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CACC380C4A456C5B7ADC20E9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Cewebity/Pods-Cewebity-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		75E66A601D05AA340093CC27 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75E66A6C1D05AA340093CC27 /* SecondViewController.swift in Sources */,
+				75E66A681D05AA340093CC27 /* AppDelegate.swift in Sources */,
+				75E66A6A1D05AA340093CC27 /* FirstViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75E66A761D05AA340093CC27 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75E66A7F1D05AA340093CC27 /* CewebityTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75E66A811D05AA340093CC27 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75E66A8A1D05AA340093CC27 /* CewebityUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		75E66A7C1D05AA340093CC27 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 75E66A631D05AA340093CC27 /* Cewebity */;
+			targetProxy = 75E66A7B1D05AA340093CC27 /* PBXContainerItemProxy */;
+		};
+		75E66A871D05AA340093CC27 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 75E66A631D05AA340093CC27 /* Cewebity */;
+			targetProxy = 75E66A861D05AA340093CC27 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		75E66A6D1D05AA340093CC27 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				75E66A6E1D05AA340093CC27 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		75E66A721D05AA340093CC27 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				75E66A731D05AA340093CC27 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		75E66A8C1D05AA340093CC27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		75E66A8D1D05AA340093CC27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		75E66A8F1D05AA340093CC27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 89D44863422DD702876339B6 /* Pods-Cewebity.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Cewebity/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cewebity.Cewebity;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		75E66A901D05AA340093CC27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 00791BB4D6CDDBC419C32F15 /* Pods-Cewebity.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Cewebity/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cewebity.Cewebity;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		75E66A921D05AA340093CC27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4FB64615BC5F33FD4A0AFC46 /* Pods-CewebityTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CewebityTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cewebity.CewebityTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cewebity.app/Cewebity";
+			};
+			name = Debug;
+		};
+		75E66A931D05AA340093CC27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DB7921AB53DB7936892E2F51 /* Pods-CewebityTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CewebityTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cewebity.CewebityTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cewebity.app/Cewebity";
+			};
+			name = Release;
+		};
+		75E66A951D05AA340093CC27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 88EBB9144A835DF0D98A453F /* Pods-CewebityUITests.debug.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = CewebityUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cewebity.CewebityUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Cewebity;
+			};
+			name = Debug;
+		};
+		75E66A961D05AA340093CC27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6A77F61A59B2D63DF6767C22 /* Pods-CewebityUITests.release.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = CewebityUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cewebity.CewebityUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Cewebity;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		75E66A5F1D05AA330093CC27 /* Build configuration list for PBXProject "Cewebity" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75E66A8C1D05AA340093CC27 /* Debug */,
+				75E66A8D1D05AA340093CC27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		75E66A8E1D05AA340093CC27 /* Build configuration list for PBXNativeTarget "Cewebity" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75E66A8F1D05AA340093CC27 /* Debug */,
+				75E66A901D05AA340093CC27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		75E66A911D05AA340093CC27 /* Build configuration list for PBXNativeTarget "CewebityTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75E66A921D05AA340093CC27 /* Debug */,
+				75E66A931D05AA340093CC27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		75E66A941D05AA340093CC27 /* Build configuration list for PBXNativeTarget "CewebityUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75E66A951D05AA340093CC27 /* Debug */,
+				75E66A961D05AA340093CC27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 75E66A5C1D05AA330093CC27 /* Project object */;
+}
